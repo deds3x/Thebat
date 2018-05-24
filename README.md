@@ -1,1 +1,22 @@
 # Thebat
+
+Joomla exploit get database password
+
+#Dork
+COM_Addproperty
+MOD_Dvfoldercontent
+COM_Docman
+COM_S5_media_player
+COM_Facegallery
+COM_Macgallery
+COM_Jtagmembersdirectory
+com_Aceftp
+COM_Joomanager
+COM_Cckjseblod
+COM_download_monitor
+COM_Community
+COM_jat3actiony
+COM_Hdflvplayer
+COM_Contushdvideoshare
+COM_Jetext
+
