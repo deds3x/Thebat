@@ -1037,11 +1037,13 @@ def detect():
         if requests.get(url + "/administrator/manifests/files/joomla.xml", verify=False).status_code == 200:
             joomla = requests.get(url + "/administrator/manifests/files/joomla.xml", verify=False)
             joomla_version = re.findall('<version>(.*?)<\/version>', joomla.text)
+	    print "\033[92m[!]\033[0m Found Version: " + joomla_version[0]
             print "\033[92m[!]\033[0m CMS: Joomla"
             joomla_checker()
         elif requests.get(url + "/language/en-GB/en-GB.xml", verify=False).status_code == 200:
             joomla = requests.get(url + "/language/en-GB/en-GB.xml", verify=False)
             joomla_version = re.findall('<version>(.*?)<\/version>', joomla.text)
+	    print "\033[92m[!]\033[0m Found Version: " + joomla_version[0]
             print "\033[92m[!]\033[0m CMS: Joomla"
             joomla_checker()
         else:
