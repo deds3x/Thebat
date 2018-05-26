@@ -4,6 +4,7 @@ import requests
 import os
 import sys
 import re
+import datetime
 import urllib
 from platform import system
 from time import time as timer
@@ -34,6 +35,8 @@ print """
 """
 #Exploit Function
 def Exploit():
+	time = datetime.datetime.now()
+	print "[>] Exploiting %s"(url)
     Logger()
     detect()
     
