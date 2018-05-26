@@ -36,7 +36,7 @@ print """
 #Exploit Function
 def Exploit():
 	time = datetime.datetime.now()
-	print "\033[94m[>]\033[0m Exploiting %s" %s (url)
+       	print "\033[94m[>]\033[0m Exploiting: %s" % (url)
     	Logger()
     	detect()
     
